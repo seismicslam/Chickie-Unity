@@ -1,0 +1,410 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1693796064609670, "dur": 6644530, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693796064612930, "dur": 195033, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693796064808438, "dur": 6435736, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693796071244213, "dur": 9987, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693796224159742, "dur": 5779056, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693796224160270, "dur": 94027, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693796224254301, "dur": 5671510, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693796229925813, "dur": 12979, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693796229940332, "dur": 69, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1693796224384618, "dur":3035, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796224387674, "dur":356, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1693796224388140, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1693796224388203, "dur":823, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1693796224389110, "dur":1618, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796224390728, "dur":7, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229769718, "dur":425, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770143, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770178, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770186, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770220, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770227, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770249, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770256, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770278, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770284, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770305, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770312, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770332, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770339, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770359, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770366, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770389, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770409, "dur":6, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229770480, "dur":5847, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1693796224389945, "dur":895, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796224390841, "dur":150459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796224541319, "dur":164092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1693796224705412, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796224705563, "dur":1967898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693796226673462, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796226673689, "dur":71991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693796226745681, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796226745981, "dur":46194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693796226792176, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796226792451, "dur":46609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693796226839061, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796226839318, "dur":189972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693796227029291, "dur":549, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796227029843, "dur":50056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693796227079900, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796227080179, "dur":240978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693796227321157, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796227321398, "dur":490157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693796227811557, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796227811825, "dur":1142033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693796228953859, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693796228954060, "dur":815673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796224389772, "dur":1009, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796224390790, "dur":150491, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796224541317, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1693796224541328, "dur":14284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796224555617, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1693796224555621, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796224555773, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1693796224555952, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796224556078, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1693796224556237, "dur":155511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796224711750, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1693796224711944, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796224712094, "dur":829257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796225541352, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796225541583, "dur":248059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796225789644, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796225789939, "dur":118073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796225908013, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796225908198, "dur":78615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796225986815, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796225987064, "dur":53984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796226041051, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796226041316, "dur":40685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796226082002, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796226082233, "dur":85982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796226168216, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796226168447, "dur":78477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796226246925, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796226247175, "dur":215662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796226462839, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796226463052, "dur":60226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796226523279, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796226523554, "dur":201796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796226725352, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796226725609, "dur":61072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796226786682, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796226786966, "dur":63692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796226850659, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796226850948, "dur":404824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796227255773, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796227256077, "dur":527617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796227783695, "dur":255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796227783954, "dur":92626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/NaughtyAttributes.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796227876581, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796227876849, "dur":548399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/InworldProto.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693796228425249, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796228425516, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693796228425653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693796228425706, "dur":89605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693796228515420, "dur":1254321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796224389884, "dur":943, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796224390827, "dur":150469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796224541318, "dur":774077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1693796225315397, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796225315617, "dur":181433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796225497051, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796225497225, "dur":57625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796225554851, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796225555119, "dur":40457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796225595577, "dur":71858, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796225667440, "dur":67095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796225734537, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796225734721, "dur":36874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796225771596, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796225771841, "dur":305899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796226077741, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796226077963, "dur":151574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796226229539, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796226229787, "dur":39507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796226269295, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796226269524, "dur":52175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796226321700, "dur":17679, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796226339386, "dur":263386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796226602774, "dur":243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796226603021, "dur":55197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796226658223, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796226658504, "dur":116877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796226775382, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796226775624, "dur":67829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796226843454, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796226843703, "dur":244036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796227087740, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796227087988, "dur":191917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796227279907, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796227280196, "dur":688158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796227968355, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796227968610, "dur":374395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Google.Api.CommonProtos.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693796228343007, "dur":360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796228343370, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1693796228343716, "dur":1485, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796228345205, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1693796228345509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796228347297, "dur":8400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1693796228355802, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1693796228355906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796228355938, "dur":4536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1693796228360778, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693796228361023, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796228361063, "dur":87408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693796228448580, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693796228448687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796228448702, "dur":7601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693796228456429, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1693796228456586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693796228456602, "dur":55370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1693796228512086, "dur":1257709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796224390120, "dur":735, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796224390856, "dur":150443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796224541318, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1693796224541801, "dur":47373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796224589178, "dur":116087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1693796224705265, "dur":6471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796224711739, "dur":286590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game.exe" }}
+,{ "pid":12345, "tid":4, "ts":1693796224998330, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796224998449, "dur":555419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796225553869, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796225554134, "dur":40962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796225595105, "dur":72332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796225667441, "dur":98678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796225766121, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796225766430, "dur":98755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796225865186, "dur":1389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796225866579, "dur":95502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796225962082, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796225962344, "dur":43589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796226005940, "dur":1035, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796226006979, "dur":95036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796226102017, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796226102270, "dur":47857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796226150128, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796226150452, "dur":45286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796226195739, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796226195949, "dur":306177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796226502128, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796226502394, "dur":232417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796226734813, "dur":524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796226735341, "dur":130510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796226865852, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796226866144, "dur":386540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796227252686, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796227253017, "dur":102230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796227355248, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796227355500, "dur":325119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796227680620, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796227681073, "dur":155982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796227837057, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796227837445, "dur":741944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693796228579390, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693796228579641, "dur":1190069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796224390305, "dur":567, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796224390872, "dur":150435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796224541319, "dur":90911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1693796224632232, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796224632443, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1693796224632631, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796224632750, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1693796224632907, "dur":78675, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796224711585, "dur":262833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1693796224974420, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796224974657, "dur":523188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796225497846, "dur":47205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796225545054, "dur":52638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796225597693, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796225597942, "dur":137720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796225735663, "dur":21663, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796225757331, "dur":95382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796225852714, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796225852888, "dur":81153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796225934043, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796225934239, "dur":117205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796226051446, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796226051682, "dur":86556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796226138239, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796226138504, "dur":54827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796226193332, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796226193602, "dur":41710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796226235313, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796226235579, "dur":132154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796226367734, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796226367890, "dur":39313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796226407204, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796226407483, "dur":37200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796226444684, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796226444944, "dur":350246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796226795191, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796226795430, "dur":278369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796227073800, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796227074074, "dur":119827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796227193902, "dur":552, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796227194458, "dur":44268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796227238727, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796227238983, "dur":314602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796227553586, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796227553839, "dur":376065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796227929905, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796227930173, "dur":361855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796228292029, "dur":819, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796228292864, "dur":135623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Plugins/x86_64/dracodec_unity.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693796228428493, "dur":19283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796228447781, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1693796228448151, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796228448361, "dur":21258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1693796228469620, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796228469898, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1693796228470031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796228470048, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1693796228472986, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1693796228473116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796228473134, "dur":4107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1693796228477350, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1693796228477472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796228477488, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1693796228480055, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1693796228480173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796228480191, "dur":14716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1693796228495028, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1693796228495331, "dur":464, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693796228495797, "dur":1273916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796224390479, "dur":413, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796224390892, "dur":150427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796224541320, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1693796224541968, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796224542172, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1693796224542350, "dur":63073, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796224605427, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1693796224605631, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796224605758, "dur":230066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1693796224835826, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796224836009, "dur":624057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796225460068, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796225460320, "dur":40699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796225501021, "dur":44002, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796225545028, "dur":50564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796225595593, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796225595842, "dur":121990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796225717834, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796225718086, "dur":608398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796226326485, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796226326690, "dur":40107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796226366798, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796226367064, "dur":33347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796226400413, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796226400626, "dur":79264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796226479892, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796226480116, "dur":110842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796226590960, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796226591203, "dur":615950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796227207154, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796227207451, "dur":117019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796227324473, "dur":399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796227324876, "dur":442591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796227767468, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796227767746, "dur":142352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/NaughtyAttributes.Test.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796227910100, "dur":669, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796227910773, "dur":275344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/InworldAI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796228186119, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796228186395, "dur":477078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693796228663474, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693796228663658, "dur":1106066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796224390658, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796224390906, "dur":150400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796224541317, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1693796224542005, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796224542208, "dur":125351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1693796224667560, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796224667749, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1693796224667923, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796224668037, "dur":68921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796224736959, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796224737239, "dur":797379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796225534619, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796225534864, "dur":51421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796225586287, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796225586558, "dur":40803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796225627362, "dur":40072, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796225667439, "dur":54862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796225722302, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796225722543, "dur":302187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796226024732, "dur":552, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796226025287, "dur":52159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796226077447, "dur":407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796226077857, "dur":99800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796226177658, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796226177899, "dur":229420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796226407319, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796226407534, "dur":132850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796226540385, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796226540607, "dur":148522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796226689130, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796226689430, "dur":85400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796226774832, "dur":567, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796226775403, "dur":61559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796226836963, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796226837238, "dur":621930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796227459169, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796227459392, "dur":68092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796227527486, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796227527746, "dur":410178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Siccity.GLTFUtility.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796227937925, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796227938176, "dur":275982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796228214160, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796228214384, "dur":385685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693796228600070, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693796228600315, "dur":1169436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796224390846, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796224390847, "dur":150473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796224541321, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1693796224541673, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796224541951, "dur":162756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1693796224704708, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796224704932, "dur":1267273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796225972207, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796225972450, "dur":65124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796226037576, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796226037825, "dur":39543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796226077369, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796226077641, "dur":111861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796226189503, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796226189737, "dur":46810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796226236548, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796226236791, "dur":70961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796226307753, "dur":31637, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796226339393, "dur":37637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796226377031, "dur":23869, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796226400903, "dur":56102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796226457007, "dur":5379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796226462391, "dur":81701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796226544093, "dur":255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796226544351, "dur":202316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796226746667, "dur":463, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796226747133, "dur":45180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796226792314, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796226792549, "dur":528578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796227321128, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796227321411, "dur":137495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796227458907, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796227459194, "dur":472882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796227932077, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796227932346, "dur":158184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Grpc.Core.Api.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796228090534, "dur":774, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796228091323, "dur":174207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Managed/Dracodec.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796228265531, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796228265807, "dur":1503634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benja/OneDrive//chickie_virtual_companion/Chickie - A Virtual Pet Game_Data/Plugins/x86_64/grpc_csharp_ext.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693796229769442, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693796229769613, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1693796229769614, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693796229781930, "dur":4933, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1693796229940772, "dur": 2165, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1693796229940298, "dur": 2712, "ph": "X", "name": "Write chrome-trace events", "args": {} },

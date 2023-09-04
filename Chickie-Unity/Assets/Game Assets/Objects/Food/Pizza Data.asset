@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa754b3b113fc534eac9820f6802e573, type: 3}
+  m_Name: Pizza Data
+  m_EditorClassIdentifier: 
+  foodName: Pizza
+  foodPrefab: {fileID: 258390730810339582, guid: dab3f7c3cbaf06742918c8729171a148, type: 3}
+  price: 20
+  changeNeeds:
+    happiness: 10
+    food: 20
+    water: 0
+    health: -10
+    energy: 10
+    affection: 0
