@@ -1,4 +1,5 @@
 # Chickie-Unity
 
 To access source code,
-Open Chickie-SelfCare-Companion in Unity using Editor Version 2021.3.6f1.
+Unzip Chickie-SelfCare-Companion.rar
+Then access files through Unity using Unity Editor Version 2021.3.6f1
